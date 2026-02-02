@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/basavarajgouda196-arch/Dockerize-the-App.git'
+                git branch: 'main', url: 'https://github.com/basavarajgouda196-arch/Dockerize-the-App.git'
             }
         }
 
