@@ -23,7 +23,7 @@ pipeline {
                     passwordVariable: 'MT6vCUJBibcVTOHMM8lwHk7RelM'
                 )]) {
                     sh '''
-                        echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
+                        echo "$DOCKER_PASS" | docker login -u "basavarajgouda" --password-stdin
                     '''
                 }
             }
